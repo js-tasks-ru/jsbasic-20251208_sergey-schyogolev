@@ -8,14 +8,14 @@ function initCarousel() {
   function hideArrow(index) {
     if (index === 0) {
       carouselButtonLeft.style.display = 'none';
-      carouselButtonRight.style.display = 'flex';
+      carouselButtonRight.style.display = '';
     } else {
-      carouselButtonLeft.style.display = 'flex';
+      carouselButtonLeft.style.display = '';
     }
     if (index === carouselItems.length - 1) {
       carouselButtonRight.style.display = 'none';
     } else {
-      carouselButtonRight.style.display = 'flex';
+      carouselButtonRight.style.display = '';
     }
   }
 
